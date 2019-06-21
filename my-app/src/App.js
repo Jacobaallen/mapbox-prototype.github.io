@@ -1,17 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ReactMapGL from "react-map-gl"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Mapppp
-        </p>
-      </header>
-    </div>
-  );
+export  default function App() {
+const []
+
+  return <div>
+      <ReactMapGL>
+        Markers here
+      </ReactMapGL>
+    </div>;
 }
 
 export default App;
