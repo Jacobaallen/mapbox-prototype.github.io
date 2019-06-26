@@ -15,11 +15,13 @@ const [viewport, setViewport] = useState({
     <div>
       <ReactMapGL {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapStyle="mapbox://styles/loghorizon/cjxdob3o109pf1cqmir78azk5"
         onViewportChange={viewport => {
           setViewport(viewport);
         }}
         >
         Markers here
+
       </ReactMapGL>
     </div>
   );
